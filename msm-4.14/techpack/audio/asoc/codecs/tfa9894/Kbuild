@@ -105,7 +105,8 @@ endif
 
 # Module information used by KBuild framework
 #obj-$(CONFIG_SND_SOC_TFA9894) += tfa9894_dlkm.o
-obj-m += tfa9894_dlkm.o
+# obj-m += tfa9894_dlkm.o
+obj-y += tfa9894_dlkm.o
 tfa9894_dlkm-y := $(TFA9894_OBJS)
 
 # inject some build related information
